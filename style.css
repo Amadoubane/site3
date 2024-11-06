@@ -1,0 +1,191 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Couleur de fond douce */
+}
+
+/* En-tête */
+header {
+    background-color: #1e1f26; /* Fond sombre */
+    color: #f4f4f9; /* Texte clair */
+}
+
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ffdd57; /* Titre en jaune pour attirer l'attention */
+    margin-left: 435px;
+}
+
+header .nav-link {
+    color: #f4f4f9;
+    font-weight: 500;
+}
+
+header .nav-link:hover {
+    color: #ffdd57;
+}
+
+/* Section des produits */
+#produits {
+    background-color: #fff; /* Fond blanc */
+}
+
+#produits h2 {
+    color: #1e1f26;
+}
+
+#produits .card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#produits .card:hover {
+    transform: scale(1.05);
+}
+
+#produits .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#produits .card-body {
+    background-color: #f8f9fa; /* Fond léger pour le corps des cartes */
+}
+
+#produits .card-title {
+    color: #ff5733; /* Titre en orange vif */
+    font-weight: bold;
+}
+
+#produits .btn-primary {
+    background-color: #007bff;
+    border: none;
+    color: white;
+}
+
+#produits .btn-primary:hover {
+    background-color: #0056b3; /* Bleu foncé au survol */
+}
+
+/* Section des actualités */
+#actualites {
+    background-color: #e9ecef; /* Fond gris clair */
+}
+
+#actualites h2 {
+    color: #1e1f26;
+    
+}
+
+#actualites .card {
+    background-color: #ffffff; /* Fond blanc pour les cartes d'actualités */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;
+}
+
+#actualites .card img {
+    height: 200px;
+    object-fit: cover;
+}
+
+#actualites .card-title {
+    color: #ff5733; /* Titre en orange vif */
+    font-weight: bold;
+}
+
+/* Section contact */
+#contact {
+    background-color: #1e1f26; /* Fond sombre */
+    color: #f4f4f9;
+}
+
+#contact h2 {
+    color: #ffdd57;
+}
+
+#contact .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+#contact .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+#contact .btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+}
+
+#contact .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+/* Section Service Client */
+#sav {
+    background-color: #e9ecef; /* Fond gris clair */
+}
+
+#sav h2 {
+    color: #1e1f26;
+}
+
+#sav .btn-outline-secondary {
+    border-color: #6c757d;
+    color: #6c757d;
+}
+
+#sav .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: #ffffff;
+}
+
+/* Pied de page */
+footer {
+    background-color: #1e1f26;
+    color: #f4f4f9;
+}
+
+footer small {
+    color: #a5a5a5;
+}
+/* Actualités des Prochaines Sorties */
+.btn-primary {
+    transition: all 0.3s ease; /* Pour un effet de transition fluide */
+    background-color: #007bff; /* Bleu de base pour le bouton */
+    color: white;
+    border: none;
+    }
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Bleu plus foncé au survol */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Effet d'ombre pour le survol */
+}
+/* Animation de flottement */
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px); /* Déplacement vers le haut */
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Style pour les boutons d'achat de flottement */
+.btn-floating {
+    animation: floating 3s ease-in-out infinite;
+    transition: background-color 0.3s ease;
+}
+
+.btn-floating:hover {
+    background-color: #0056b3;
+}
+
+
